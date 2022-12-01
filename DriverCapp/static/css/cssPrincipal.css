@@ -1,4 +1,4 @@
-.container-full{
+body {
    padding-top: 100px;
    background-image: linear-gradient(5deg, #6441a5 0, #6441a5 16.67%, #a062eb 33.33%, #7a56e9 50%, #414ce7 66.67%, #0045e6 83.33%, #002277 100%);
 }
