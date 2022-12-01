@@ -1,6 +1,6 @@
 .container-full{
-   background-image: linear-gradient(270deg, #c753ff 0, #8847ff 25%, #3b38ff 50%, #002ad7 75%, #001eb1 100%);
    padding-top: 100px;
+   background-image: linear-gradient(5deg, #6441a5 0, #6441a5 16.67%, #a062eb 33.33%, #7a56e9 50%, #414ce7 66.67%, #0045e6 83.33%, #002277 100%);
 }
 
 .centrar{
@@ -10,6 +10,7 @@
 
 h1{
    color: white;
+   font-family: fantasy;
 }
 
 button{
@@ -59,11 +60,6 @@ button::before {
 
 
 
-
-
-
-
-
 @keyframes glowing {
    0%{
       background-position: 0 0;
@@ -76,3 +72,27 @@ button::before {
    }
    
 }
+
+
+
+
+@media screen and (max-width: 600px){
+   h2{
+      color:white
+      
+   }
+   .logo{
+      position: static;
+      left: 5px;
+
+   }
+   .ima1{
+      position: static;
+      right: 5px;
+      width: 250px;
+   }
+   
+
+   }
+
+   
