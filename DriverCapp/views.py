@@ -6,9 +6,16 @@ from mobi.decorators import detect_mobile
 @detect_mobile
 def PagPrincipal(request):
     if request.mobile:
-        IsMovile = True
+        
+        contexto2 = {
+        "IsMovile" : True
+        }
+
     else:
-        IsMovile = False
+        contexto2 = {
+        "IsMovile" : False
+        }
+
         #Hacer cosas para otros dispositivos
-    print(IsMovile)
-    return render(request, 'PagPrincipal.html')
+    
+    return render(request, 'PagPrincipal.html',contexto2)
