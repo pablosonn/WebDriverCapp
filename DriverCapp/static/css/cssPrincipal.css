@@ -41,6 +41,29 @@ button::before {
    animation: glowing 20s linear infinite;
 }
 
+
+
+.w-100 {
+    width: 100%!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+
+.mamon{
+   border-radius: 40px;
+   
+}
+
+
+
+
+
+
+
+
 @keyframes glowing {
    0%{
       background-position: 0 0;
