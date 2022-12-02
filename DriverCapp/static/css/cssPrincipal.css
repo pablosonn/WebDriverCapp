@@ -25,7 +25,14 @@ h1{
    border-radius: 12px;
 }
 
+.Portada{
+   background-color: black;
+}
 
+
+.resalta{
+   background-color: rgb(175, 137, 247);
+}
 
 
 .w-100 {
