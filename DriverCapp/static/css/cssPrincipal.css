@@ -28,6 +28,13 @@ h1{
    background-color: black;
 }
 
+.QR{
+   background-color: rgb(55, 37, 99);
+   
+   height: 750px;
+
+}
+
 
 .resalta{
    background-color: rgb(175, 137, 247);
@@ -49,20 +56,22 @@ h1{
 }
 
 
-
-@keyframes glowing {
-   0%{
-      background-position: 0 0;
-   }
-   50% {
-      background-position: 400% 0;
-   }
-   100%{
-      background-position: 0 0;
-   }
+.Foto1{
+   position: static;
    
+   width: 50%;
+}
+.ima1{
+   position: static;
+   right: 5px;
+   width:100%
 }
 
+.card-icon{
+   width: 40%;
+   background-color: transparent; 
+   border: none
+}
 
 
 
@@ -73,15 +82,30 @@ h1{
    }
    .logo{
       position: static;
-      left: 5px;
+      width:100%
 
    }
+   .Foto1{
+      visibility: hidden;
+      width: 0%;
+   }
+
+   .Fotos2{
+      position: static;
+      
+      width: 90%;
+   }
+
    .ima1{
       position: static;
       right: 5px;
       width: 250px;
    }
-   
+   .card-icon{
+      width: 70%;
+      background-color: transparent; 
+      border: none
+   }
 
    }
 
