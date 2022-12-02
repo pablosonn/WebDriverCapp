@@ -1,6 +1,6 @@
 body {
    padding-top: 100px;
-   background-image: linear-gradient(5deg, #6441a5 0, #6441a5 16.67%, #a062eb 33.33%, #7a56e9 50%, #b97be2 66.67%, #ccb4db 83.33%, #ffffff 100%);
+   background-image: radial-gradient(circle at 37.72% 119.64%, #be67ea 0, #9055ca 25%, #6341a5 50%, #392d80 75%, #0e1c5f 100%);
 }
 
 .centrar{
